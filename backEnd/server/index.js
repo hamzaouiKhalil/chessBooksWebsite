@@ -1,13 +1,15 @@
 const express = require('express');
-const db = require('../database-mysql');
+const  users = require('../routes/UsersRoute');
+const db = require('../database-mysql/database');
 
-const app = express();
+const app = express()
+const port = 3000
 
-app.get('/api/users',  (req, res)=> {
+app.use('/users',users);
 
-});
 
-app.listen(3000, () =>{
-  console.log('listening on port 3000!');
+
+app.listen(port, () =>{
+  console.log(`listening on port =>>>> ${port}`);
 });
 
