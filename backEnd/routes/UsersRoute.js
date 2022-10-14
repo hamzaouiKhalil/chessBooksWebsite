@@ -6,4 +6,5 @@ const {insert,getOneUser,updateUserBalance} = require('../controllers/usersContr
 router.post("/add",insert);
 router.put("/:id",updateUserBalance);
 router.get("/one/:id",getOneUser)
+router.get("/getall")
 module.exports = router;

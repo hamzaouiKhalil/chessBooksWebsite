@@ -1,1 +1,101 @@
+#logo{
+    height: 50px;
+    width: 120px;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.76);
+    height: 50px;
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+button{
+    
+   
+    font-size: 24px;
+    width: 150px;
+    margin-left: 50px;
+    border-top: 2px solid;
+    border-color: white;
+}
+#left {
+    margin-right: 200px;
+}
+#right{
+    margin-left: 200px;
 
+}
+main{
+    height: 1000px;
+    margin-top: 100px;
+}
+footer{
+    background-color: black;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+p{
+    display: inline;
+}
+input{
+    margin-left: 20px;
+    height: 30px;
+
+}
+#input {
+    margin-left: 65px;
+}
+#inputEmail{
+    margin-left: 65px;
+}
+p{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+#join{
+    margin-left: 260px;
+    font-size: 20px;
+    width: 100px;
+
+}
+#containerLogin {
+    margin-top: 50px;
+}
+#para{
+    font-size: 20px;
+
+}
+#pContainer{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+  .cards {
+    height: 300px;
+  }
+  .card{
+    display: inline-block;
+    width: 25%;
+    flex-wrap: wrap;
+  }
+  .footerP {
+    color: white;
+    font-size: 16px;
+    padding-top: 150px;
+  }

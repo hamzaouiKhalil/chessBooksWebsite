@@ -1,8 +1,14 @@
 const users = require('../models/usersModel')
 
 module.exports = {
+    getAll:(req,res)=> {
+        users.getAll((err,results)=> {
+            err ? res.status(500).send(err) : res.status(200).json(results);
+        })
+        },
 
     insert :(req,res)=> {
+        
  
         users.insert ((err,results)=>{
            
