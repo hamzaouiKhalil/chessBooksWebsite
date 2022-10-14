@@ -113,11 +113,31 @@ p{
     background-color: saddlebrown;
     width: 1400px;
   }
-  main{
+  /* main{
+    display: flex;
+    
+  } */
+  h2 {
+    margin-left: 70px;
+
+  }
+  h3{
+    margin-top: 700px;
+  }
+  #resultContainer{
     display: flex;
     
   }
-  h2 {
-    margin-left: 70px;
-    
+  h5{
+    margin-top: 699px;
+    margin-left: 50px;
+    font-size: 24px;
   }
+  #buy {
+    height: 30px;
+    margin-top: 699px;
+  }
+  #anotherDiv{
+    display: flex;
+  }
+
