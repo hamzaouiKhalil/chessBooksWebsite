@@ -47,9 +47,8 @@ class Main extends React.Component {
             <div class="card">
             <img src={chessTournament} alt="Avatar" class = "cards" ></img>
             <div class="container">
-            <h4><b>Chess for kids</b></h4>
-            <button onClick={()=>this.setState({ result: this.state.result + 1999 })}>1999 dollars</button>
-            
+            <h4><b>zurich international chess tournament 1953</b></h4>
+            <button onClick={()=>{this.setState({ result: this.state.result + 1999 })}}>1999 dollars</button>
             </div>
             </div>
             </div>
