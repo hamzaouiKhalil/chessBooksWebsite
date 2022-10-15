@@ -40,7 +40,7 @@ class Main extends React.Component {
             <img src={chessForKids} alt="Avatar" class = "cards" ></img>
             <div class="container">
             <h4><b>Chess for kids</b></h4>
-            <button onClick={()=>this.setState({ result: this.state.result + 23 })}>23 dollars</button>
+            <button onClick={()=>this.setState({ result: this.state.result + 23})}>23 dollars</button>
             
             </div>
             </div>
@@ -54,7 +54,7 @@ class Main extends React.Component {
             </div>
             </div>
             <div id= "bill">
-                <h2>your bill sir : </h2> 
+                <h2>your bill sir :</h2> 
                 <div id = "resultContainer"><h3>Your sum :! </h3><h5>{this.state.result}</h5><button id = "buy">buy</button></div>
                 
             </div>
